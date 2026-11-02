@@ -1,0 +1,8 @@
+# C - Hello, World
+
+This project introduces basics of C: compiling with gcc, preprocessor, and printing text.
+
+## Files
+
+- 0-preprocessor: runs file in "$CFILE" through preprocessor and saves result in "c".
+
