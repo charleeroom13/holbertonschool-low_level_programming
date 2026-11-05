@@ -14,7 +14,7 @@ int main(void)
 
 	while (alp <= 'z')
 	{
-		if (alp != 'e' && alp != 'q') /* Checkpoint (if) inside the room (while) */
+		if (alp != 'e' && alp != 'q') /* Filtering checkpoint */
 		{
 			putchar(alp);
 		}
