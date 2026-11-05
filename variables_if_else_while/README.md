@@ -1,0 +1,12 @@
+# C - Variables, if, else, while
+
+- 0-positive_or_negative.c: prints whether random number in "n" is positive, zero or negative.
+- 1-last_digit.c: prints last digit of random number in "n" and compares it to 5.
+- 2-print_alphabet.c: prints alphabet in lowercase followed by new line.
+- 3-print_alphabets.c: prints alphabet in lowercase then uppercase followed by new line.
+- 4-print_alphabt.c: prints alphabet in lowercase except "e" and "q" followed by new line.
+- 5-print_numbers.c: prints all single digit numbers of base 10 followed by new line.
+- 6-print_numberz.c: Same as above but using putchar followed by new line.
+- 7-print_tebahpla.c: Same as task 2 but in reverse followed by new line.
+- 8-print_base16.c: prints all numbers of base 16 in lowercase followed by new line (Task 6 + Task 2).
+- 9-print_comb.c: prints all possible combinations of single-digit numbers separated by comma and space (Task 6 loop with a seperator).
