@@ -19,7 +19,7 @@ int main(void)
 			putchar(alp);
 		}
 
-		alp++; /* Stays outside the if checkpoint to runs for every letter.
+		alp++; /* Stays outside the if checkpoint to run for every letter.
 			* If this was in it, the loop would freeze at e.
 			*/
 	}
