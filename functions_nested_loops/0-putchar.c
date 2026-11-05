@@ -1,4 +1,4 @@
-#include "main.h" /* pulls in prototype. Quotes used because it's own header */
+#include "main.h" /* pulls in prototype. Quotes used bc it's my own header */
 
 /**
  * main - Entry point
