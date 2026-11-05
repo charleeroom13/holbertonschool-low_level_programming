@@ -17,7 +17,7 @@ int main(void)
         printf("Choice: ");
 
         /* reads a whole number into the variable
-         * and checks that exactly one number was read */
+         * then checks that exactly one number was read */
 
         if (scanf("%d", &choice) != 1)
         {
@@ -25,13 +25,13 @@ int main(void)
             return 1;
         }
 
-        if (choice == 0) /* checks if the user wants to exit */
+        if (choice == 0) /* while test fails and loop ends */
             puts("Bye!");
 
-        else if (choice < 0 || choice > 4)
+        else if (choice < 0 || choice > 4) /* checks if user entered a valid option */
             puts("Invalid choice");
     }
 
-    return 0; /* success (non-zero is a problem) */
+    return 0; /* ends main: Success (non-zero is a problem) */
 }
 
