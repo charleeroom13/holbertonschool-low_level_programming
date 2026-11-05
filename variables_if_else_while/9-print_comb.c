@@ -14,8 +14,6 @@ int main(void)
 
 	while (num <= 9)
 	{
-		/* Task 6 loop with a separator */
-
 		putchar('0' + num);
 
 		if (num != 9) /* No separator after the last digit */

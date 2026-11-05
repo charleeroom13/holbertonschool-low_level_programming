@@ -9,4 +9,4 @@
 - 6-print_numberz.c: Same as above but using putchar followed by new line.
 - 7-print_tebahpla.c: Same as task 2 but in reverse followed by new line.
 - 8-print_base16.c: prints all numbers of base 16 in lowercase followed by new line (Task 6 + Task 2).
-- 9-print_comb.c: prints all possible combinations of single-digit numbers separated by comma and space.
+- 9-print_comb.c: prints all possible combinations of single-digit numbers separated by comma and space (Task 6 loop with a seperator).
