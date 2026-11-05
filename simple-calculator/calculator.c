@@ -54,6 +54,26 @@ int main(void)
             result = a + b;
             printf("Result: %.10g\n", result);
         }
+
+        else if (choice == 2)
+        {
+            printf("A: ");
+            if (scanf("%lf", &a) != 1)
+            {
+                puts("Invalid input. Please enter a number.");
+                return 1;
+            }
+
+            printf("B: ");
+            if (scanf("%lf", &b) != 1)
+            {
+                puts("Invalid input. Please enter a number.");
+                return 1;
+            }
+
+            result = a - b;
+            printf("Result: %.10g\n", result);
+        }
     }
 
     return 0;

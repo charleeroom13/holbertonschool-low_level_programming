@@ -66,6 +66,28 @@ int main(void)
              * .10 allows up to 10 digits so big numbers stay plain.
              */
         }
+
+        /* a new arm in the same chain, so only one branch ever runs */
+
+        else if (choice == 2) /* Same as above but for subtraction */
+        {
+            printf("A: ");
+            if (scanf("%lf", &a) != 1)
+            {
+                puts("Invalid input. Please enter a number.");
+                return 1;
+            }
+
+            printf("B: ");
+            if (scanf("%lf", &b) != 1)
+            {
+                puts("Invalid input. Please enter a number.");
+                return 1;
+            }
+
+            result = a - b; /* only this line changes. Swapping + for - is the whole task */
+            printf("Result: %.10g\n", result);
+        }
     }
 
     return 0; /* ends main: Success (non-zero is a problem) */

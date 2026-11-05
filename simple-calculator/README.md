@@ -13,6 +13,11 @@ Task 1: Menu Loop + Choice Validation
 
 Task 2: Addition
 - Choice 1 prompts for A: and B:.
-- Reads both as decimal numbers.
+- Computes A + B as decimal numbers.
 - Prints "Result: <value>" with trailing zeros dropped.
 - Non-number input prints an error and exits.
+
+Task 3: Subtraction (as above, but change + to -)
+- Choice 2 prompts for A: and B:.
+- Computes A - B as decimal numbers.
+- Prints "Result: <value>", negative when B is larger.
