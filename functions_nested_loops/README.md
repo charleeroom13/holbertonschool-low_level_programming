@@ -1,0 +1,2 @@
+- 0-putchar.c: prints "_putchar" followed by new line using _putchar function.
+- main.h: header file with prototype of _putchar function.
