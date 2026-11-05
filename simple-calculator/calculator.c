@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Simple calculator menu loop
- *
+ * main - Simple calculator
  * Return: 0 on success, 1 on bad input
  * See notes for codes info in file names with T0, T1, T2, etc.
- *
  */
 
 int main(void)
 {
     int choice = -1;
+    double a = 0;
+    double b = 0;
+    double result = 0;
 
     while (choice != 0)
     {
@@ -33,6 +34,26 @@ int main(void)
 
         else if (choice < 0 || choice > 4)
             puts("Invalid choice");
+
+        else if (choice == 1)
+        {
+            printf("A: ");
+            if (scanf("%lf", &a) != 1)
+            {
+                puts("Invalid input. Please enter a number.");
+                return 1;
+            }
+
+            printf("B: ");
+            if (scanf("%lf", &b) != 1)
+            {
+                puts("Invalid input. Please enter a number.");
+                return 1;
+            }
+
+            result = a + b;
+            printf("Result: %.10g\n", result);
+        }
     }
 
     return 0;

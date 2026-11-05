@@ -10,3 +10,9 @@ Task 1: Menu Loop + Choice Validation
 - Quitting prints "Bye!".
 - Non-number input prints an error and exits.
 - Choices 1 to 4 are accepted, with no calculation yet.
+
+Task 2: Addition
+- Choice 1 prompts for A: and B:.
+- Reads both as decimal numbers.
+- Prints "Result: <value>" with trailing zeros dropped.
+- Non-number input prints an error and exits.

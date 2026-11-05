@@ -5,6 +5,9 @@
 int main(void)
 {
     int choice = -1; /* starts value that is not a menu option */
+    double a = 0; /* a double holds decimals, an int would turn 7/2 into 3 */
+    double b = 0;
+    double result = 0; /* stores the sum at the top of block (gnu 89) */
 
     while (choice != 0) /* repeats menu until user quits */
     {
@@ -17,7 +20,11 @@ int main(void)
         printf("Choice: ");
 
         /* reads a whole number into the variable
-         * then checks that exactly one number was read */
+         * then checks that exactly one number was read.
+         * if user types a letter, scanf leaves it in input
+         * so loop would repeat forever.
+         * the exit with return 1 prevents that.
+         */
 
         if (scanf("%d", &choice) != 1)
         {
@@ -30,6 +37,35 @@ int main(void)
 
         else if (choice < 0 || choice > 4) /* checks if user entered a valid option */
             puts("Invalid choice");
+
+        else if (choice == 1) /* only runs when user picks Add */
+        {
+            /* reads a decimal into a.
+             * %lf is for scanf (l means double)
+             * %f would read a float, which is wrong size here */
+
+            printf("A: ");
+            if (scanf("%lf", &a) != 1)
+            {
+                puts("Invalid input. Please enter a number.");
+                return 1;
+            }
+
+            printf("B: ");
+            if (scanf("%lf", &b) != 1)
+            {
+                puts("Invalid input. Please enter a number.");
+                return 1;
+            }
+
+            result = a + b;
+            printf("Result: %.10g\n", result);
+
+            /* %g drops trailing zeros
+             * %f would show all decimal places
+             * .10 allows up to 10 digits so big numbers stay plain.
+             */
+        }
     }
 
     return 0; /* ends main: Success (non-zero is a problem) */
