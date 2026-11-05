@@ -4,3 +4,4 @@
 - 1-last_digit.c: prints last digit of random number in "n" and compares it to 5.
 - 2-print_alphabet.c: prints alphabet in lowercase followed by new line.
 - 3-print_alphabets.c: prints alphabet in lowercase then uppercase followed by new line.
+- 4-print_alphabt.c: prints alphabet in lowercase except "e" and "q" followed by new line.
