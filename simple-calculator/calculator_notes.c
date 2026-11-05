@@ -25,7 +25,7 @@ int main(void)
             return 1;
         }
 
-        if (choice == 0) /* while test fails and loop ends */
+        if (choice == 0) /* "while" test fails and loop ends */
             puts("Bye!");
 
         else if (choice < 0 || choice > 4) /* checks if user entered a valid option */
