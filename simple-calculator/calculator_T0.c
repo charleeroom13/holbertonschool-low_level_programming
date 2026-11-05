@@ -1,9 +1,6 @@
 #include <stdio.h> /* Brings in puts, printf and scanf */
 
-/*
- * TASK 0: skeleton
- * My study notes (copy of calculator.c at Task 0)
- */
+/* My study notes (copy of calculator.c at Task 0) */
 
 int main(void)
 {
