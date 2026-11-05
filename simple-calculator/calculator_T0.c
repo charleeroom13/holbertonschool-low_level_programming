@@ -1,13 +1,13 @@
 #include <stdio.h> /* Brings in puts, printf and scanf */
 
-/* Current code is a simple program that allows the user to choose an operation.
-* It displays a menu of options, reads the user's choice, and handles invalid input.
-* The main function returns 0 for successful execution and 1 for invalid input.
-*/
+/*
+ * TASK 0: skeleton
+ * My study notes (copy of calculator.c at Task 0)
+ */
 
 int main(void)
 {
-    int choice = -1; /* Creates a variable with a starting value */
+    int choice = -1; /* Start value that is not a menu option */
 
     puts("Simple Calculator");
     puts("1) Add");
@@ -18,8 +18,9 @@ int main(void)
     printf("Choice: ");
 
     /* Reads a whole number into the variable
-    * and checks that exactly one number was read
-    */
+     * and checks that exactly one number was read
+     */
+
     if (scanf("%d", &choice) != 1)
     {
         puts("Invalid input. Please enter a number.");
