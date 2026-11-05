@@ -7,4 +7,5 @@
 - 4-print_alphabt.c: prints alphabet in lowercase except "e" and "q" followed by new line.
 - 5-print_numbers.c: prints all single digit numbers of base 10 followed by new line.
 - 6-print_numberz.c: Same as above but using putchar followed by new line.
-- 7-print_tebahpla.c: Same as task 2 but in reverse.
+- 7-print_tebahpla.c: Same as task 2 but in reverse followed by new line.
+- 8-print_base16.c: prints all numbers of base 16 in lowercase followed by new line (Task 6 + Task 2).
