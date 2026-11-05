@@ -5,3 +5,4 @@
 - 2-print_alphabet.c: prints alphabet in lowercase followed by new line.
 - 3-print_alphabets.c: prints alphabet in lowercase then uppercase followed by new line.
 - 4-print_alphabt.c: prints alphabet in lowercase except "e" and "q" followed by new line.
+- 5-print_numbers.c: prints all single digit numbers of base 10 followed by new line.
