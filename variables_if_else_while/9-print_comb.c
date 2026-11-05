@@ -22,7 +22,7 @@ int main(void)
 			putchar(' ');
 		}
 
-		num++; /* Outside the if to run on every pass incl. the last.
+		num++; /* Outside the if to run on every pass incl the last.
 			* Inside it, the loop would hang at 9
 			*/
 	}
