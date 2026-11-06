@@ -15,3 +15,6 @@
 
 - 5-sign.c: prints sign of a number using print_sign function.
 - main.h: header file with prototypes of _putchar,... and print_sign functions.
+
+- 6-abs.c: computes absolute value of an integer using _abs function.
+- main.h: header file with prototypes of _putchar,... and _abs functions.
