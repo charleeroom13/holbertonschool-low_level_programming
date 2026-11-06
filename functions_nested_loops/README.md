@@ -21,3 +21,6 @@
 
 - 7-print_last_digit.c: prints last digit of a number using print_last_digit function.
 - main.h: header file with prototypes of _putchar,... and print_last_digit functions.
+
+- 8-24_hours.c: prints every minute of the day of Jack Bauer using jack_bauer function.
+- main.h: header file with prototypes of _putchar,... and jack_bauer functions.
