@@ -27,3 +27,6 @@
 
 - 9-times_table.c: prints 9 times table starting with 0 using times_table function.
 - main.h: header file with prototypes of _putchar,... and times_table functions.
+
+- 10-add.c: adds two integers and returns result using add function.
+- main.h: header file with prototypes of _putchar,... and add functions.
