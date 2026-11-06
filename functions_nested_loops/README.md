@@ -6,3 +6,6 @@
 
 - 2-print_alphabet_x10.c: prints alphabet in lowercase 10 times, each followed by new line, using print_alphabet_x10 function.
 - main.h: header file with prototypes of _putchar, print_alphabet and print_alphabet_x10 functions.
+
+- 3-islower.c: checks for lowercase character using _islower function.
+- main.h: header file with prototypes of _putchar, print_alphabet, print_alphabet_x10 and _islower functions.
