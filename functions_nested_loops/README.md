@@ -18,3 +18,6 @@
 
 - 6-abs.c: computes absolute value of an integer using _abs function.
 - main.h: header file with prototypes of _putchar,... and _abs functions.
+
+- 7-print_last_digit.c: prints last digit of a number using print_last_digit function.
+- main.h: header file with prototypes of _putchar,... and print_last_digit functions.
