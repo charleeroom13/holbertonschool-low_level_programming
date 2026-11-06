@@ -24,3 +24,6 @@
 
 - 8-24_hours.c: prints every minute of the day of Jack Bauer using jack_bauer function.
 - main.h: header file with prototypes of _putchar,... and jack_bauer functions.
+
+- 9-times_table.c: prints 9 times table starting with 0 using times_table function.
+- main.h: header file with prototypes of _putchar,... and times_table functions.
