@@ -9,3 +9,6 @@
 
 - 3-islower.c: checks for lowercase character using _islower function.
 - main.h: header file with prototypes of _putchar, print_alphabet, print_alphabet_x10 and _islower functions.
+
+- 4-isalpha.c: checks for alphabetic character using _isalpha function.
+- main.h: header file with prototypes of _putchar, print_alphabet, print_alphabet_x10, _islower and _isalpha functions.

@@ -16,5 +16,6 @@ int _putchar(char c) /* takes one character, c, and returns an int */
 	 * three arguments are delivery slip
 	 * Address: 1, file descriptor 1 is screen (standard output)
 	 * Package: &c, where the letter sits (& means "address of")
-	 * Weight: 1, a single character (one byte).
+	 * Weight: 1, a single character (one byte)
+	 */
 }
