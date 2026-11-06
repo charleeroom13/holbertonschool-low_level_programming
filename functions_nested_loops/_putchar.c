@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <unistd.h> /* gives compiler prototype for write, so it knows what write is and how to call it */
 
 /**
  * _putchar - writes the character c to stdout
