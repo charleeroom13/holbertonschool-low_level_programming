@@ -30,3 +30,6 @@
 
 - 10-add.c: adds two integers and returns result using add function.
 - main.h: header file with prototypes of _putchar,... and add functions.
+
+- 11-print_to_98.c: prints all integers from n to 98 using print_to_98 function.
+- main.h: header file with prototypes of _putchar,... and print_to_98 functions.
