@@ -74,7 +74,7 @@ _I love dot points (>___< )_
 - If processor draws similar power while busy, then more CPU time = more energy.
 
 - Naive algo kept CPU busy for about 2.05 s, against 0.000085 s for single-pass.
-- Under that assumption, naive version would use ~24,000 times more energy for the same task.
+- Under that assumption, naive ver uses ~24,000 times more energy for the same task.
 - 'clock()' measures how long CPU was busy, and I use that as a guess for energy use. Only a guess, since a busy CPU can draw more or less power at different moments.
 
 - Analogy: _my fav method to add words for essay!_
