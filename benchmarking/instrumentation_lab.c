@@ -52,23 +52,27 @@ static unsigned long reduce_checksum(void)
 
 int main(void)
 {
-    unsigned long checksum;
 
+// VARIABLES - declared before any statement
+
+    unsigned long checksum;
     clock_t total_start;
     clock_t total_end;
-    clock_t phase_start;
+    clock_t phase_start; // one pair of clock variables reused for all phases so boundaries are consistent
     clock_t phase_end;
     double total_s;
     double build_s;
     double process_s;
     double reduce_s;
 
-    total_start = clock();
+    total_start = clock(); // before first phase
+
+    // PHASES - each phase is timed separately
 
     phase_start = clock();
     build_dataset();
     phase_end = clock();
-    build_s = (double)(phase_end - phase_start) / (double)CLOCKS_PER_SEC;
+    build_s = (double)(phase_end - phase_start) / (double)CLOCKS_PER_SEC; // convert ticks to seconds
 
     phase_start = clock();
     process_dataset();
@@ -80,10 +84,10 @@ int main(void)
     phase_end = clock();
     reduce_s = (double)(phase_end - phase_start) / (double)CLOCKS_PER_SEC;
 
-    total_end = clock();
+    total_end = clock(); // after last phase
     total_s = (double)(total_end - total_start) / (double)CLOCKS_PER_SEC;
 
-    if (checksum == 0ul)
+    if (checksum == 0ul) // checksum should never be zero, this is a sanity check
         printf("impossible\n");
 
     printf("TOTAL seconds: %.6f\n", total_s);
