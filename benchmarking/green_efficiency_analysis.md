@@ -19,6 +19,7 @@ _I love dot points (>___< )_
 - Printing happens after every timer stops.
 - I did not change any algo logic or input data _as requested._
 
+<br>
 
 ## Observed Performance Differences
 
@@ -65,6 +66,7 @@ _I love dot points (>___< )_
     - Naive version is like recounting whole queue from the front every time someone joins _prolly OCD._
     - Single-pass version counts each person once.
 
+<br>
 
 ## Relation Between Runtime and Energy Consumption
 
@@ -80,6 +82,7 @@ _I love dot points (>___< )_
     - Car engine: same engine driven 24,000 times longer burns about 24,000 times more fuel.
     - Jogging vs sprinting: jogging for 2 minutes and sprinting for 2 minutes take the same time but burn different energy. Time is a good guide only if effort stays roughly similar.
 
+<br>
 
 ## Limitations of the Experiment
 
@@ -93,6 +96,7 @@ _I love dot points (>___< )_
 - I never measured energy directly. I used run time to estimate it, so claims are educated guesses.
 - Analogy: car trip! you know how long you drove, not how much fuel you used. Fuel depends on speed and hills too, not only on time.
 
+<br>
 
 ## Practical Engineering Takeaway
 
@@ -109,6 +113,6 @@ _I love dot points (>___< )_
 - Analogy: one bad exam doesn’t define you, but a pattern across several grade does.
 
 
-## More analogy just because!!!
+### More analogy just because!!!
 
 Fix leaking tap before buying bigger bucket! a bigger bucket handles leak for longer, but water is still being wasted.
