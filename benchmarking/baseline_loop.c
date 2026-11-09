@@ -1,3 +1,5 @@
+// SETUP
+
 #include <stdio.h> // brings in printf
 #include <time.h> // brings in clock(), clock_t and CLOCKS_PER_SEC
 
@@ -8,7 +10,8 @@
 
 int main(void) // returns interger (0 means success), takes no arguments
 {
-    // VARIABLES (all declared at the top because gnu89 requires it)
+
+// VARIABLES (all declared at the top because gnu89 requires it)
 
     // volatile tells compiler not to optimize away variable, even if it seems unused
     volatile unsigned long long result;
@@ -20,7 +23,7 @@ int main(void) // returns interger (0 means success), takes no arguments
     double elapsed; // holds final seconds, a decimal type because time is fractional
     unsigned long i; // loop counter, unsigned long to match ITERATION_COUNT
 
-    // LOGIC
+// LOGIC
 
     result = 0; // 0 is a clean starting state
 
