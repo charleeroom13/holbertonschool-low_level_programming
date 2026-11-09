@@ -13,11 +13,10 @@ _I love dot points (>___< )_
     - Instrumentation lab 4
 
 - Lab timers:
-    - Each phase (BUILD_DATA, PROCESS, REDUCE) has its own timer around one function call
+    - Each phase (BUILD_DATA, PROCESS, REDUCE) has its timer around one function call
     - TOTAL wraps all 3 calls
-
-- Printing happens after every timer stops.
-- I did not change any algo logic or input data _as requested._
+    - Printing happens after every timer stops.
+    - I did not change any algo logic or input data _as requested._
 
 <br>
 
