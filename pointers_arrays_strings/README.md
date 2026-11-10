@@ -14,3 +14,6 @@
 
 - 4-print_rev.c: function that prints string in reverse followed by new line.
 - main.h: header file with prototypes of _putchar,... and print_rev functions.
+
+- 5-rev_string.c: function that reverses a string.
+- main.h: header file with prototypes of _putchar,... and rev_string functions.
