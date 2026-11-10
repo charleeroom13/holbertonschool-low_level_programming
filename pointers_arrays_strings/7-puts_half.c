@@ -16,14 +16,14 @@ void puts_half(char *str)
 		len++;
 
 	/**
-	 * i = len / 2: starting position, where the second half begins
+	 * i = (len + 1) / 2: starting position, where the second half begins
 	 * / drops remainder on ints, which works for both even and odd lengths
 	 *
 	 * i < len: print up to the last real character
 	 * the end marker isn't included
 	 */
 
-	for (i = len / 2; i < len; i++)
+	for (i = (len + 1) / 2; i < len; i++)
 
 		_putchar(str[i]); /* print one character at a time */
 
