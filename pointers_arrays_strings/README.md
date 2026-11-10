@@ -11,3 +11,6 @@
 
 - 3-puts.c: function that prints string followed by new line to stdout.
 - main.h: header file with prototypes of _putchar,... and _puts functions.
+
+- 4-print_rev.c: function that prints string in reverse followed by new line.
+- main.h: header file with prototypes of _putchar,... and print_rev functions.
