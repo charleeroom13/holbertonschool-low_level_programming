@@ -8,3 +8,6 @@
 
 - 2-strlen.c: function that returns length of a string.
 - main.h: header file with prototypes of _putchar,... and _strlen functions.
+
+- 3-puts.c: function that prints string followed by new line to stdout.
+- main.h: header file with prototypes of _putchar,... and _puts functions.
