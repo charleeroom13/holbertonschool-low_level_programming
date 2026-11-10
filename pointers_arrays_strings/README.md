@@ -23,3 +23,6 @@
 
 - 7-puts_half.c: function that prints second half of string followed by new line.
 - main.h: header file with prototypes of _putchar,... and puts_half functions.
+
+- 8-print_array.c: function that prints n elements of an array of integers.
+- main.h: header file with prototypes of _putchar,... and print_array functions.
