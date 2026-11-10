@@ -8,7 +8,7 @@
  */
 
 /**
- * int *a: an array arrives as a pointer to its first element
+ * "int *a": an array arrives as a pointer to its first element
  * function can't know length, so give n
  */
 
