@@ -33,7 +33,7 @@ void rev_string(char *s)
 		s[len - 1 - i] = tmp; /* then put the saved one on the right */
 
 		/**
-		 * Trace for "My School" (len 9):
+		 * trace for "My School" (len 9):
 		 * i < 4, so 4 swaps: positions 0 8, 1 7, 2 6, 3 5
 		 * position 4 (space) is the middle and stays put
 		 */
