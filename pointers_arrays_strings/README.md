@@ -26,3 +26,6 @@
 
 - 8-print_array.c: function that prints n elements of an array of integers.
 - main.h: header file with prototypes of _putchar,... and print_array functions.
+
+- 9-strcpy.c: function that copies string pointed to by src to buffer pointed to by dest.
+- main.h: header file with prototypes of _putchar,... and _strcpy functions.
