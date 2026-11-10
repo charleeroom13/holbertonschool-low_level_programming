@@ -5,3 +5,6 @@
 
 - 1-swap.c: function that swaps values of two integers.
 - main.h: header file with prototypes of _putchar,... and swap_int functions.
+
+- 2-strlen.c: function that returns length of a string.
+- main.h: header file with prototypes of _putchar,... and _strlen functions.
