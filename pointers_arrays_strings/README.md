@@ -20,3 +20,6 @@
 
 - 6-puts2.c: function that prints every other character of string followed by new line.
 - main.h: header file with prototypes of _putchar,... and puts2 functions.
+
+- 7-puts_half.c: function that prints second half of string followed by new line.
+- main.h: header file with prototypes of _putchar,... and puts_half functions.
