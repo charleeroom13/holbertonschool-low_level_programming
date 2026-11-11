@@ -32,3 +32,9 @@
 
 - 100-atoi.c: function that converts string to integer.
 - main.h: header file with prototypes of _putchar,... and _atoi functions.
+
+<br>
+# C - More pointers, arrays and strings
+
+- 0-strcat.c: function that concatenates two strings.
+- main.h: header file with prototypes of _putchar,... and _strcat functions.
