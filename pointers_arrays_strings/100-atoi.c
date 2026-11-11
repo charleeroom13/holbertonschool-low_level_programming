@@ -40,6 +40,20 @@ int _atoi(char *s)
 	while (s[i] >= '0' && s[i] <= '9')
 	{
 		/**
+		 * result * 10 - digit:
+		 * shifts existing digits left and adds new one
+		 * which builds number negative on purpose
+		 *
+		 * Why go negative?
+		 * an int can hold values from -2147483648 to 2147483647
+		 * there is one more negative value than positive. 
+		 * there is no +2147483648
+		 *
+		 * 2147483648 is too big and overflows
+		 * sanitizer flag then reports an error
+		 * 
+		 * -2147483648 fits exactly, nothing overflows
+		 *
 		 * s[i] - '0':
 		 * turns character '7' into number 7
 		 */
@@ -47,6 +61,11 @@ int _atoi(char *s)
 		result = result * 10 - (s[i] - '0');
 		i++;
 	}
+
+	/**
+	 * result is stored negative, so positive sign flips it to positive
+	 * a negative sign leaves it as is
+	 */
 
 	if (sign == 1)
 		result = -result;
