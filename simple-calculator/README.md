@@ -26,3 +26,9 @@ Task 4: Multiplication
 - Choice 3 prompts for A: and B:.
 - Computes A * B as decimal numbers.
 - Prints "Result: <value>".
+
+Task 5: Division
+- Choice 4 prompts for A: and B:.
+- Calculator uses decimal numbers (double), so 10 / 4 is 2.5.
+- If B is 0, prints "Error: division by zero" and returns to menu.
+- Otherwise prints "Result: <value>".

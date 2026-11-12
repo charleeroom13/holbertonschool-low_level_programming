@@ -108,6 +108,33 @@ int main(void)
 			result = a * b;
 			printf("Result: %.10g\n", result);
 		}
+
+        else if (choice == 4) /* Same as above + a condition for division */
+		{
+			printf("A: ");
+			if (scanf("%lf", &a) != 1)
+			{
+				printf("Invalid input. ");
+				printf("Please enter a number.\n");
+				return (1);
+			}
+			printf("B: ");
+			if (scanf("%lf", &b) != 1)
+			{
+				printf("Invalid input. ");
+				printf("Please enter a number.\n");
+				return (1);
+			}
+			if (b == 0) /* safety check, made after B is read and before dividing */
+			{
+				printf("Error: division by zero\n");
+			}
+			else
+			{
+				result = a / b;
+				printf("Result: %.10g\n", result);
+			}
+		}
     }
 
     return 0; /* ends main: Success (non-zero is a problem) */
