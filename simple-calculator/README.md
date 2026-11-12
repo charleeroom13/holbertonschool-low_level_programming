@@ -21,3 +21,8 @@ Task 3: Subtraction (as above, but change + to -)
 - Choice 2 prompts for A: and B:.
 - Computes A - B as decimal numbers.
 - Prints "Result: <value>", negative when B is larger.
+
+Task 4: Multiplication
+- Choice 3 prompts for A: and B:.
+- Computes A * B as decimal numbers.
+- Prints "Result: <value>".

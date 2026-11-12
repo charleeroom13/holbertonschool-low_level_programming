@@ -85,9 +85,29 @@ int main(void)
                 return 1;
             }
 
-            result = a - b; /* only this line changes. Swapping + for - is the whole task */
+            result = a - b; /* Swapping + for - is the whole task */
             printf("Result: %.10g\n", result);
         }
+
+        else if (choice == 3) /* Same as above but for multiplication */
+		{
+			printf("A: ");
+			if (scanf("%lf", &a) != 1)
+			{
+				printf("Invalid input. ");
+				printf("Please enter a number.\n");
+				return (1);
+			}
+			printf("B: ");
+			if (scanf("%lf", &b) != 1)
+			{
+				printf("Invalid input. ");
+				printf("Please enter a number.\n");
+				return (1);
+			}
+			result = a * b;
+			printf("Result: %.10g\n", result);
+		}
     }
 
     return 0; /* ends main: Success (non-zero is a problem) */
