@@ -8,3 +8,4 @@ Practice with functions, nested loops and header files.
 - 2-mul.c: multiplies two integers.
 - 3-print_numbers.c: prints numbers 0 to 9, followed by new line.
 - 4-print_most_numbers.c: prints numbers 0 to 9, except 2 and 4, followed by new line.
+- 5-more_numbers.c: prints 10 times numbers from 0 to 14, followed by new line.
