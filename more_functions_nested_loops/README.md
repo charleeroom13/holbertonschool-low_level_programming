@@ -10,3 +10,4 @@ Practice with functions, nested loops and header files.
 - 4-print_most_numbers.c: prints numbers 0 to 9, except 2 and 4, followed by new line.
 - 5-more_numbers.c: prints 10 times numbers from 0 to 14, followed by new line.
 - 6-print_line.c: draws straight line in terminal.
+- 7-print_diagonal.c: draws diagonal line on terminal.
