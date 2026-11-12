@@ -6,10 +6,15 @@ void print_table(int size)
 
     for (row = 1; row <= size; row++)
     {
-        for (col = 1; col <= size;)
+        // Bug: col is changed in two places on each pass
+        // "for" statement already adds 1 (col++ in header)
+        // extra col++; inside body adds another 1
+        // so col jumps by 2 and skips a column
+        // fixed by deleting extra col++;
+
+        for (col = 1; col <= size; col++)
         {
             printf("%d ", row * col);
-            col++;
         }
         printf("\n");
     }
