@@ -32,9 +32,9 @@ void reverse_array(int *a, int n)
 		 */
 
 		a[i] = a[n - 1 - i];
-		
-		a[n - 1 - i] = tmp; /* saved front value goes to back, completes swap */
-		
+
+		a[n - 1 - i] = tmp; /* saved front value goes to back */
+
 		i++; /* both ends step inward */
 	}
 }
