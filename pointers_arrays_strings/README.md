@@ -40,3 +40,4 @@
 - 0-strcat.c: function that concatenates two strings.
 - 1-strncat.c: concatenates two strings, using at most n bytes from src.
 - 2-strncpy.c: copies a string, using at most n bytes.
+- 3-strcmp.c: compares two strings.
