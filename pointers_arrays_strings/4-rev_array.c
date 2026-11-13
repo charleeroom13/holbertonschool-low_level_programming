@@ -24,8 +24,17 @@ void reverse_array(int *a, int n)
 	while (i < n / 2)
 	{
 		tmp = a[i]; /* holds front value */
-		a[i] = a[n - 1 - i]; /*  */
-		a[n - 1 - i] = tmp;
-		i++;
+
+		/**
+		 * back value moves to front
+		 * last index is n - 1
+		 * subtracting i walks back pointer inward as front one walks forward
+		 */
+
+		a[i] = a[n - 1 - i];
+		
+		a[n - 1 - i] = tmp; /* saved front value goes to back, completes swap */
+		
+		i++; /* both ends step inward */
 	}
 }
