@@ -36,5 +36,6 @@
 <br>
 # C - More pointers, arrays and strings
 
+- main.h: header file with prototypes of functions.
 - 0-strcat.c: function that concatenates two strings.
-- main.h: header file with prototypes of _putchar,... and _strcat functions.
+- 1-strncat.c: concatenates two strings, using at most n bytes from src.
