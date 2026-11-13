@@ -33,7 +33,7 @@
 - 100-atoi.c: function that converts string to integer.
 - main.h: header file with prototypes of _putchar,... and _atoi functions.
 
-<br>
+
 # C - More pointers, arrays and strings
 
 - main.h: header file with prototypes of functions.
