@@ -5,7 +5,7 @@
  * @c: character to check
  *
  * Return: 1 if c is a separator, 0 otherwise
- * Notes are pushed on GitHub later so Betty is happy
+ * Notes are pushed to GitHub later so Betty is happy
  */
 
 /**
