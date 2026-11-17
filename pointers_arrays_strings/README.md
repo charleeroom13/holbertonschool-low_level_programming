@@ -55,3 +55,4 @@
 - 4-strpbrk.c: searches string for any of set of bytes.
 - 5-strstr.c: locates substring.
 - 7-print_chessboard.c: prints chessboard.
+- 8-print_diagsums.c: prints sum of two diagonals of square matrix of integers.
