@@ -3,3 +3,4 @@
 - dog.h: defines new type struct dog with name, age and owner.
 - 1-init_dog.c: initializes variable of type struct dog.
 - 2-print_dog.c: prints struct dog.
+- dog.h: defines new type struct dog with name, age and owner, and dog_t as new name for it.
