@@ -10,11 +10,11 @@
 
  void *malloc_checked(unsigned int b)
 {
-    /**
-     * void *:
-     * as return type means “a pointer to any kind of memory”
-     * malloc returns same type, so no cast is needed
-     */
+	/**
+	 * void *:
+	 * as return type means “a pointer to any kind of memory”
+	 * malloc returns same type, so no cast is needed
+	 */
 
 	void *p;
 
