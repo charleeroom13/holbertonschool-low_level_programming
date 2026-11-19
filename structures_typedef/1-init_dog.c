@@ -23,11 +23,4 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	d->name = name; /* same as (*d).name */
 	d->age = age; /* plain copy of the number */
 	d->owner = owner;
-
-	/**
-	 * use . on a normal variable and -> on a pointer
-	 * d->name = name; and d->owner = owner;
-	 * these copy address of text, not letters
-	 * shallow copy is fine here bc “Poppy” and “Bob” live in caller
-	 */
 }
