@@ -8,7 +8,7 @@
  * Return: pointer to allocated memory (exits with 98 on failure)
  */
 
- void *malloc_checked(unsigned int b)
+void *malloc_checked(unsigned int b)
 {
 	/**
 	 * void *:
