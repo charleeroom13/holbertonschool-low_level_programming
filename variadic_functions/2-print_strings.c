@@ -36,16 +36,17 @@ void print_strings(const char *separator, const unsigned int n, ...)
  * i = 0;
  * while (i < n)
  * {
- * str = va_arg(ap, char *);
- * if (str == NULL)
- * printf("(nil)");
- * if (str != NULL)
- * printf("%s", str);
- * if (i != n - 1)
- * {
- * if (separator != NULL)
- * printf("%s", separator);
- * }
- * i++;
+ * 	str = va_arg(ap, char *);
+ * 	if (str == NULL)
+ * 		printf("(nil)");
+ * 	if (str != NULL)
+ * 		printf("%s", str);
+ * 	if (i != n - 1)
+ * 	{
+ * 		if (separator != NULL)
+ * 			printf("%s", separator);
+ * 	}
+ * 	i++;
  * }
  */
+
