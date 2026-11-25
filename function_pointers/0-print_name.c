@@ -16,9 +16,9 @@ void print_name(char *name, void (*f)(char *))
 	/**
 	 * Baby-steps:
 	 * if (name == 0)
-	 * return;
+	 * 	return;
 	 * if (f == 0)
-	 * return;
+	 * 	return;
 	 * f(name);
 	 */
 }
