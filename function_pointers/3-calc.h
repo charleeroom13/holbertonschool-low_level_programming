@@ -12,7 +12,7 @@ typedef struct op
 {
 	char *op; /* operator string */
 	int (*f)(int a, int b); /* function pointer to operator function */
-} op_t; /* one struct per operator lets us keep them all in a table and search it */
+} op_t;
 
 int op_add(int a, int b); /* add two integers */
 int op_sub(int a, int b); /* subtract two integers */

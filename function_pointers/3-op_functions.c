@@ -10,7 +10,8 @@
  * @b: second integer
  *
  * Return: calculated value of a and b.
- * op_div and op_mod don't check for zero, bc main does that before calling them
+ * op_div and op_mod don't check for zero
+ * bc main does that before calling them
  */
 
 int op_add(int a, int b)

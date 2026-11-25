@@ -32,12 +32,12 @@ int main(int argc, char *argv[])
 	a = atoi(argv[1]); /* convert first argument to integer */
 	b = atoi(argv[3]); /* convert second argument to integer */
 
-	if ((argv[2][0] == '/' || argv[2][0] == '%') && b == 0) /* check for division by zero */
+	if ((argv[2][0] == '/' || argv[2][0] == '%') && b == 0)
 	{
 		printf("Error\n");
 		exit(100);
 	}
 
-	printf("%d\n", f(a, b)); /* calls whichever function get_op_func returned, so main never names op_add directly */
+	printf("%d\n", f(a, b));
 	return (0);
 }
