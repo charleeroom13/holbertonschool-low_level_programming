@@ -19,17 +19,3 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 			action(array[i]);
 	}
 }
-
-/**
- * Baby steps:
- * size_t i = 0;
- * if (array == 0)
- * return;
- * if (action == 0)
- * return;
- * while (i < size)
- * {
- * action(array[i]);
- * i++;
- * }
- */
