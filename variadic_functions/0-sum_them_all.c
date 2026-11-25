@@ -27,12 +27,12 @@ int sum_them_all(const unsigned int n, ...)
 /**
  * Baby-steps:
  * if (n == 0)
- * return (0);
+ * 	return (0);
  * va_start(ap, n);
  * i = 0;
  * while (i < n)
  * {
- * total = total + va_arg(ap, int);
- * i++;
+ * 	total = total + va_arg(ap, int);
+ * 	i++;
  * }
  */
