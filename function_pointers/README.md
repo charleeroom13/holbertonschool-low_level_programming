@@ -14,3 +14,12 @@
 - Steps 6 to 8: main calls f(1024, 10), which runs op_div and returns 102. main prints it.
 
 main never names op_div itself. The table in 3-get_op_func.c decides which function runs.
+
+## Task 3: A restaurant analogy
+
+- You at the table: ./calc 1024 / 10.
+- The waiter: main. They check the order makes sense, like having the right number of items, and refuse bad ones with "Error".
+- The kitchen board: the table in get_op_func. It lists which chef handles which dish: + goes to the adder, / goes to the divider.
+- The chefs: op_add, op_sub, op_mul, op_div and op_mod.
+- The note the waiter holds: f. It's the pointer, which tells the waiter which chef to hand the order to. The waiter never needs to know how to cook.
+- The dish: the result, 102, which the waiter brings back and prints.
