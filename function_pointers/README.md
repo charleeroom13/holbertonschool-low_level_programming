@@ -8,7 +8,7 @@
 - 3-get_op_func.c: selects function for given operator.
 - 3-main.c: performs simple operations from command line.
 
-** Task 3 as a whole:
+## Task 3 as a whole:
 - Steps 1 to 2: main checks the input, then asks get_op_func for the function that matches /.
 - Steps 3 to 5: get_op_func searches its table and hands back the address of op_div. main stores that address in f.
 - Steps 6 to 8: main calls f(1024, 10), which runs op_div and returns 102. main prints it.
