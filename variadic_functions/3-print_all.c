@@ -56,12 +56,3 @@ void print_all(const char * const format, ...)
 	va_end(ap);
 	printf("\n");
 }
-
-/**
- * sep starts as "" (empty)
- * each item prints sep first, then itself
- * after the first item, sep becomes ", "
- * Why?: printing the separator before each item, not after
- * means ignored letters never leave a stray ", "
- * and there's no trailing one
- */
