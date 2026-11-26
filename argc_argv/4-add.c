@@ -12,12 +12,12 @@
  * i = 0;
  * while (s[i] != '\0')
  * {
- * c = s[i];
- * if (c < '0')
- * return (0);
- * if (c > '9')
- * return (0);
- * i++;
+ * 	c = s[i];
+ * 	if (c < '0')
+ * 		return (0);
+ * 	if (c > '9')
+ * 		return (0);
+ * 	i++;
  * }
  * return (1);
  */
@@ -44,13 +44,13 @@ int is_number(char *s)
  * i = 1;
  * while (i < argc)
  * {
- * if (is_number(argv[i]) == 0)
- * {
- * printf("Error\n");
- * return (1);
- * }
- * sum = sum + atoi(argv[i]);
- * i++;
+ * 	if (is_number(argv[i]) == 0)
+ * 	{
+ * 		printf("Error\n");
+ * 		return (1);
+ * 	}
+ * 	sum = sum + atoi(argv[i]);
+ * 	i++;
  * }
  */
 
